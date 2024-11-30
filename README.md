@@ -3,7 +3,7 @@
 This portfolio highlights the Data Science Capstone project, focusing on leveraging advanced data analysis and machine learning techniques to solve a specific challenge. Click the link below to view the code on my personal GitHub page.
 
 ## [Group6Capstone: Project Overview](https://github.com/SamRobinson123/Group6Capstone/blob/main/Group6Capstone.ipynb)
-![Project Status](https://img.shields.io/badge/status-complete-green.svg)
+![Project Status]([https://img.shields.io/badge/status-complete-green.svg](https://github.com/SamRobinson123/GroupProjectRepo/blob/main/Group6Capstone.ipynb))
 
 ### Business Problem
 The **Group6Capstone** project aims to analyze data and build predictive models to address challenges in [insert domain or sector, e.g., financial forecasting, healthcare analytics, etc.]. The project’s main focus is to ensure that data-driven insights can be effectively leveraged to [specific goal, e.g., improve financial performance, enhance decision-making, or optimize operations]. The project applies modern machine learning techniques to uncover trends, make accurate predictions, and drive actionable recommendations.
