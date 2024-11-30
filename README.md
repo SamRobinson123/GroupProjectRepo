@@ -1,8 +1,9 @@
 # Swire Coca-Cola Capstone Modeling
 
-This portfolio highlights the **Swire Coca-Cola Capstone Project**, which focuses on predicting machine failure to reduce downtime and improve operational efficiency. A key component of the project is the development of **Survival Models** to estimate the time to failure for machines. Click the link below to view the code on my personal GitHub page.
+This portfolio highlights the **Swire Coca-Cola Capstone Project**, which focuses on predicting machine failure to reduce downtime and improve operational efficiency. A key component of the project is the development of **Survival Models** to estimate the time to failure for machines. Click the links below to view the code and presentation slides on my personal GitHub page.
 
 ## [Group6Capstone: Project Overview](https://github.com/SamRobinson123/GroupProjectRepo/blob/main/Group6Capstone.ipynb)
+## [Group6 Slide Deck: Presentation Slides](https://github.com/SamRobinson123/GroupProjectRepo/blob/main/Group6SlideDeck.pdf)
 ![Project Status](https://img.shields.io/badge/status-complete-green.svg)
 
 ### Business Problem
