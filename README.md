@@ -48,12 +48,4 @@ Key insights from this project include:
 - Improved data quality and additional features (e.g., machine age, temperature, pressure) could significantly enhance model performance.
 - Filtering the dataset for reliable entries ensured the survival models could produce meaningful predictions.
 
-### 📈 Kaplan-Meier Survival Curves
-Below is an example visualization of Kaplan-Meier survival curves for the machine-level survival model:
-
-#### Example Graph: Kaplan-Meier Survival Curve
-![Kaplan-Meier Curve](sample_graph.png)
-
-This graph illustrates the predicted time to failure for individual machines based on historical unplanned maintenance events. Additional survival curves can be found in the full notebook.
-
 ---
