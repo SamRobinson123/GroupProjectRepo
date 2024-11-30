@@ -1,63 +1,62 @@
-# Capstone Portfolio
+# Swire Coca-Cola Capstone Modeling
 
-This portfolio highlights the Data Science Capstone project, focusing on leveraging advanced data analysis and machine learning techniques to solve a specific challenge. Click the link below to view the code on my personal GitHub page.
+This portfolio showcases the Data Science Capstone project undertaken by Group 6. The project focuses on reducing operational inefficiencies at Swire Coca-Cola through predictive modeling techniques. Click the link below to view the code on my personal GitHub page.
 
-## [Group6Capstone: Project Overview](https://github.com/SamRobinson123/Group6Capstone/blob/main/Group6Capstone.ipynb)
-![Project Status]([https://img.shields.io/badge/status-complete-green.svg](https://github.com/SamRobinson123/GroupProjectRepo/blob/main/Group6Capstone.ipynb))
+## [Group6Capstone: Project Overview](https://github.com/SamRobinson123/GroupProjectRepo/blob/main/Group6Capstone.ipynb)
+![Project Status](https://img.shields.io/badge/status-complete-green.svg)
 
 ### Business Problem
-The **Group6Capstone** project aims to analyze data and build predictive models to address challenges in [insert domain or sector, e.g., financial forecasting, healthcare analytics, etc.]. The project’s main focus is to ensure that data-driven insights can be effectively leveraged to [specific goal, e.g., improve financial performance, enhance decision-making, or optimize operations]. The project applies modern machine learning techniques to uncover trends, make accurate predictions, and drive actionable recommendations.
+Swire Coca-Cola incurs an annual loss of approximately **$60 million** due to machine downtimes. Currently, maintenance workers respond reactively to machine breakdowns, leading to prolonged downtimes and productivity losses. This project aims to develop a **predictive model** that alerts workers of machines with a high probability of malfunction before the incidents occur. The solution seeks to minimize downtime, improve operational efficiency, and drive significant cost savings for Swire Coca-Cola.
 
 ### 🎯 Objective
-The primary goal of this project was to:
-- [Insert objective, e.g., "Develop a predictive model for customer segmentation," or "Build a time series model for financial forecasting."]
-- Leverage exploratory data analysis (EDA) to uncover actionable insights.
-- Implement machine learning models to solve [specific problem].
+The primary goal of this project is to:
+- Build a **predictive model** to forecast machine failures and time to failure.
+- Enable proactive maintenance scheduling to reduce machine downtime.
+- Enhance productivity and reduce costs by improving machine uptime.
 
 ### 📊 Project Details
-- **Dataset**: The project utilized a comprehensive dataset containing [insert data points/records], capturing information on [brief description of the data, e.g., transactions, customer behavior, etc.].
-- **Data Cleaning**: Applied robust preprocessing techniques, including:
-  - Handling missing values and duplicates.
-  - Addressing outliers using statistical methods.
-  - Transforming variables for better modeling performance.
+- **Dataset**: The project utilizes a dataset containing operational metrics from Swire Coca-Cola's manufacturing machines.
+- **Data Cleaning**:
+  - Handled missing values and inconsistent data points.
+  - Transformed variables to align with the target outcome (time to failure).
+  - Selected features relevant to machine malfunction predictions.
 - **Modeling**:
-  - Developed a [insert model name, e.g., Random Forest, XGBoost, etc.] model to tackle the problem.
-  - Achieved the following metrics:
-    - **Accuracy**: [Insert value, e.g., 92%].
-    - **Other Metric (e.g., AUC)**: [Insert value, e.g., 0.85].
-  - Models were evaluated using cross-validation to ensure generalizability.
+  - Implemented a **Random Forest Regressor** and **XGBoost** for predictive modeling.
+  - Conducted hyperparameter tuning using GridSearchCV for optimal performance.
+  - Evaluated models using metrics such as Mean Squared Error (MSE) and R-squared.
 
 ### 🚀 Value of the Solution
-This project delivered valuable insights and predictions, leading to:
-- Improved accuracy in [specific area, e.g., financial forecasting or customer segmentation].
-- Enhanced decision-making capabilities by leveraging machine learning techniques.
-- A foundation for scaling predictive models to solve similar challenges in related domains.
+This project delivers significant value to Swire Coca-Cola by:
+- Reducing annual losses attributed to machine downtimes.
+- Transitioning from reactive to proactive maintenance workflows.
+- Enabling data-driven decision-making in maintenance operations.
 
 ### Key Metrics
-- **Performance**: Achieved an average AUC score of [insert AUC score, e.g., 0.77].
-- **Accuracy**: Achieved a prediction accuracy of [insert accuracy, e.g., 91%].
+- **Mean Squared Error (MSE)**: [Insert Value]
+- **R-Squared**: [Insert Value]
 
-These metrics highlight the effectiveness of the approach and its applicability to real-world challenges.
+These metrics highlight the model's strong predictive capability and its potential for real-world application.
 
 ### Takeaways
 Key learnings from this project include:
-- The critical importance of data preprocessing in machine learning workflows.
-- How using modularized functions and classes improves code maintainability and reduces errors.
-- The significant value of hyperparameter tuning to achieve optimal model performance.
+- The importance of thorough **data cleaning** and **preparation** in predictive modeling.
+- The efficacy of using ensemble models like Random Forest and XGBoost for complex regression tasks.
+- The value of hyperparameter tuning in optimizing model performance.
 
 ### 📈 Exploratory Data Analysis (EDA) Examples
-The following visualizations were critical during the data exploration phase and provide insight into key patterns in the dataset:
+The following visualization was critical during the data exploration phase and provides insights into machine downtimes:
 
-#### Example Graph: Distribution of [Insert Feature Name]
+#### Example Graph: Distribution of Machine Downtimes
 ![Sample Graph](sample_graph.png)
 
-This graph illustrates [brief description of the graph, e.g., trends, distributions, or comparisons]. Additional visualizations can be found in the full notebook.
-"""
-#### Feature Importance
-![Feature Rank](https://raw.githubusercontent.com/SamRobinson123/Capstone_Portfolio/main/images/Capture.JPG "Feature Rank")
+This graph illustrates downtime patterns and helps identify high-risk periods for machine failures. Additional visualizations and analyses can be found in the full notebook.
 
-#### Default Rate by Education
-![Default Rate by Education](https://raw.githubusercontent.com/SamRobinson123/Capstone_Portfolio/main/images/deafult%20rate%20by%20education.JPG "Default Rate by Education")
+---
 
-#### Default Rate by Family Status
-![Default Rate by Family Status](https://raw.githubusercontent.com/SamRobinson123/Capstone_Portfolio/main/images/default%20rate%20by%20family%20status.JPG "Default Rate by Family Status")
+## Setup and Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/SamRobinson123/GroupProjectRepo.git
+   cd GroupProjectRepo
