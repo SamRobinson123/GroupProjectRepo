@@ -41,11 +41,12 @@ As a member of the **Group6Capstone** team, I contributed significantly to the p
 3. **Validation and Optimization**:
    - Assessed model performance using survival-specific metrics, such as Concordance Index, and refined features to improve predictions.
 
-### 🚀 Value of the Solution
+### 🚀 Business Value of the Solution
 The survival models provide valuable insights for Swire Coca-Cola by:
 - Enabling **proactive maintenance** to prevent machine downtime.
 - Improving decision-making with data-driven predictions.
 - Laying the groundwork for further improvements through enhanced data collection and feature engineering.
+- Reducing annual costs driven by unplanned maintenance
 
 ### Key Metrics
 - **Concordance Index (C-Index)**:
