@@ -28,19 +28,6 @@ The primary focus of this project is to:
     - **Machine-Level Model**: 0.78
     - **Component-Level Model**: 0.76
 
-  ### 🚀 Personal Contribution
-As a member of the **Group6Capstone** team, I contributed significantly to the project through the following efforts:
-
-1. **Feature Engineering and EDA**:
-   - Developed survival-related features, such as "Time to Failure," which was calculated from unplanned maintenance logs.
-   - Engineered machine-level attributes to represent historical maintenance schedules, part replacements, and operational time.
-
-2. **Model Development**:
-   - Designed and implemented the **Cox Proportional Hazards survivor model** to predict time-to-failure, focusing on hazard rates for each machine.
-
-3. **Validation and Optimization**:
-   - Assessed model performance using survival-specific metrics, such as Concordance Index, and refined features to improve predictions.
-
 ### 🚀 Business Value of the Solution
 The survival models provide valuable insights for Swire Coca-Cola by:
 - Enabling **proactive maintenance** to prevent machine downtime.
